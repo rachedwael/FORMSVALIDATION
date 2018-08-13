@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+      <title>FORMS VALIDATION</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+       
+
+  </head>
+
+  <body>
+    <div class="container-fluid">
+    <section class="form-container">
+      <div class="row">
+        
+      <div class="col-lg-3 col-md-5" ></div>
+
+      <div class="col-lg-6 col-md-6">
+      <form class="form-content" onsubmit="return verifForm()">
+
+        <label class="title-input">NOM ET PRENOM</label>
+        <input class="zone-text"  type="text" name="">
+
+        <label class="title-input">ADRESSE</label>
+        <input  class="zone-text" type="text" name="">
+
+        <label class="title-input label-mail">EMAIL</label>
+        <input class="zone-text email"  type="text" >
+
+        <label class="title-input">MOT DE PASS</label>
+        <input  class="zone-text password" type="password" name="" >
+
+        <label class="title-input">COMMENTAIRE</label>
+        <textarea class="zone-text" ></textarea>
+
+        <input class="zone-text btn-form btn-form-sub"  type="submit" >
+
+        <input  class="zone-text btn-form btn-form-res" type="reset" >
+
+      </form>
+      </div>
+      <div class="col-lg-3 col-md-3 "></div>
+
+    </div>
+    </section>
+  
+      </div>  
+      <script src="forms.js" type="text/javascript"></script>
+  </body>
+</html>
